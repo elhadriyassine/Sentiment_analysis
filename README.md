@@ -12,17 +12,17 @@ This Python tool is designed to analyze the sentiment of recent financial news h
 ## Requirements
 The script has the following dependencies, which will be automatically installed if not found:
 
-nltk: A powerful natural language toolkit for Python.
+  - nltk: A powerful natural language toolkit for Python.
 
-finnhub: The Python client for the Finnhub API.
+  - finnhub: The Python client for the Finnhub API.
 
-pandas: A data manipulation and analysis library, used here for creating and displaying the news data table.
+  - pandas: A data manipulation and analysis library, used here for creating and displaying the news data table.
 
 Additionally, a Finnhub API key is required. The script is specifically configured to retrieve this key from Google Colab Secrets. You must store your key in the secrets panel under the name finhubAPI.
 
 ## How to Run
 
-Set up your Finnhub API Key
+Set up your Finnhub API Key.
 
 In your Google Colab notebook, click on the Key icon in the left sidebar to open the "Secrets" panel.
 
@@ -30,24 +30,26 @@ Click on "+ New secret" and create a new secret with the following details:
 
 Name: finhubAPI
 
-Value: Your Finnhub API key (e.g., abcdefg123456...)
+  Value: Your Finnhub API key (e.g., abcdefg123456...)
 
 Ensure the checkbox "Notebook access" is enabled for this secret.
 
 Install Libraries:
 
-The script will automatically check for and download the vader_lexicon from NLTK.
+  The script will automatically check for and download the vader_lexicon from NLTK.
 
-You may need to manually install the finnhub-python and pandas libraries if they are not pre-installed in your environment. You can do this by running the following commands in a code cell:
+You may need to manually install the finnhub-python and pandas libraries if they are not pre-installed in your environment. 
+You can do this by running the following commands in a code cell:
 
-!pip install finnhub-python
-!pip install pandas
+  !pip install finnhub-python
+  !pip install pandas
 
 Execute the Script:
 
-Run the Python code. The script will prompt you to enter a stock ticker symbol.
+  Run the Python code. The script will prompt you to enter a stock ticker symbol.
 
 ## Expected Output
+
 Upon running the script, you will be prompted to enter a stock symbol. The console output will then follow this sequence:
 
 A confirmation that the Finnhub API key has been retrieved.
