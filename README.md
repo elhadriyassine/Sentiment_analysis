@@ -35,17 +35,18 @@ Additionally, a Finnhub API key is required. The script is specifically configur
 
 Install Libraries:
 
-  The script will automatically check for and download the vader_lexicon from NLTK.
+  - The script will automatically check for and download the vader_lexicon from NLTK.
 
-You may need to manually install the finnhub-python and pandas libraries if they are not pre-installed in your environment. 
+- You may need to manually install the finnhub-python and pandas libraries if they are not pre-installed in your environment.
+
 You can do this by running the following commands in a code cell:
 
-  !pip install finnhub-python
-  !pip install pandas
+  - !pip install finnhub-python
+  - !pip install pandas
 
 Execute the Script:
 
-  Run the Python code. The script will prompt you to enter a stock ticker symbol.
+  - Run the Python code. The script will prompt you to enter a stock ticker symbol.
 
 ## Expected Output
 
