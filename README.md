@@ -1,7 +1,7 @@
 # Financial News Sentiment Analyzer
-This Python script is designed to analyze the sentiment of recent financial news headlines for a user-specified stock ticker. Script can retrieve news for the last seven days.By leveraging the Finnhub API to fetch news data and the NLTK VADER lexicon for sentiment analysis, the script provides a quick overview of public sentiment surrounding a company.
+This Python tool is designed to analyze the sentiment of recent financial news headlines for a user-specified stock ticker. Script can retrieve news for the last seven days. By leveraging the Finnhub API to fetch news data and the NLTK VADER lexicon for sentiment analysis, the script provides a quick overview of public sentiment surrounding a company.
 
-Features
+## Features
   - Stock Ticker Input: Prompts the user to enter a stock symbol (e.g., AAPL, TSLA).
   - Automated News Fetching: Retrieves news headlines for the last seven days using the Finnhub API.
   - Sentiment Analysis: Analyzes the sentiment of each headline, categorizing it as Positive, Negative, or Neutral.
@@ -9,7 +9,7 @@ Features
   - Top Headlines: Identifies and displays the top 10 most positive and top 10 most negative headlines based on their sentiment score.
   - Detailed Results: Provides a complete, scrollable table of all processed articles, including their date, headline, sentiment label, and compound sentiment score.
 
-Requirements
+## Requirements
 The script has the following dependencies, which will be automatically installed if not found:
 
 nltk: A powerful natural language toolkit for Python.
@@ -20,7 +20,8 @@ pandas: A data manipulation and analysis library, used here for creating and dis
 
 Additionally, a Finnhub API key is required. The script is specifically configured to retrieve this key from Google Colab Secrets. You must store your key in the secrets panel under the name finhubAPI.
 
-How to Run
+## How to Run
+
 Set up your Finnhub API Key
 
 In your Google Colab notebook, click on the Key icon in the left sidebar to open the "Secrets" panel.
@@ -46,7 +47,7 @@ Execute the Script:
 
 Run the Python code. The script will prompt you to enter a stock ticker symbol.
 
-Expected Output
+## Expected Output
 Upon running the script, you will be prompted to enter a stock symbol. The console output will then follow this sequence:
 
 A confirmation that the Finnhub API key has been retrieved.
