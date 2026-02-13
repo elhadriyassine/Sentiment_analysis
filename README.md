@@ -22,17 +22,16 @@ Additionally, a Finnhub API key is required. The script is specifically configur
 
 ## How to Run
 
-Set up your Finnhub API Key.
+  - Set up your Finnhub API Key.
 
-In your Google Colab notebook, click on the Key icon in the left sidebar to open the "Secrets" panel.
+  - In your Google Colab notebook, click on the Key icon in the left sidebar to open the "Secrets" panel.
 
-Click on "+ New secret" and create a new secret with the following details:
+  - Click on "+ New secret" and create a new secret with the following details:
 
-Name: finhubAPI
+  - Name: finhubAPI
+    Value: Your Finnhub API key (e.g., abcdefg123456...)
 
-  Value: Your Finnhub API key (e.g., abcdefg123456...)
-
-Ensure the checkbox "Notebook access" is enabled for this secret.
+  - Ensure the checkbox "Notebook access" is enabled for this secret.
 
 Install Libraries:
 
